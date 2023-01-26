@@ -1,16 +1,10 @@
 let visitorName = prompt ("What is your name?");
 
-function checkName(visitorName){
-    if(visitorName === ""){  
+function checkName(){
+    while(!visitorName){  
         alert("Whoa! You didn't input anything!");
         visitorName = prompt("May I have a your name?"); 
-        return visitorName
-    }else if(visitorName == null){  
-        alert("Whoa! You don't have to cancel!");
-        visitorName = prompt("May I have a your name?");
-        return visitorName
-    }else{
-        return
+        
     };
 }
 
