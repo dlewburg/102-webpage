@@ -41,5 +41,5 @@ shakeType();
 let shakeNumber = prompt("How many Milkshakes do you want to shake?");
 
 for(let i = 0; i<shakeNumber; i++){
-    document.write("<img src='images/milkshake.png'");
+    document.write("<img src='images/milkshake.png'>");
 }
